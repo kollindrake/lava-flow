@@ -22,6 +22,7 @@ I highly recommend using the latest version of Foundry supported by the module, 
 | v2.\* | v10 |
 | v3.\* | v11 |
 | v4.\* | v12 |
+| [TODO: workaround for now](https://github.com/Praxxian/lava-flow/issues/74) | v13 |
 
 ## How to Use
 
@@ -44,6 +45,7 @@ I highly recommend using the latest version of Foundry supported by the module, 
 
 ## Known Issues
 
+- **Foundry Version 13:** Compatability is in progress, but in the meantime there is a [workaround](https://github.com/Praxxian/lava-flow/issues/74).
 - Folder depth is limited to Foundry's folder depth limit.
 - Obsidian Canvas files are not supported. These will be ignored.
 - Issues with selecting a folder and having no files import. This is usually an issue with webkitdirectory. Workaround/solution is typically to use a different browser (e.g. Firefox, Chrome, Edge).
