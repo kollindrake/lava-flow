@@ -1,5 +1,6 @@
 {
   "name": "lava-flow",
+  "id": "lava-flow",
   "title": "Lava Flow",
   "description": "A module for importing Obsidian MD vaults into Foundry VTT as journal entries.",
   "version": "4.1.0",
