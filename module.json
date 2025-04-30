@@ -1,5 +1,6 @@
 {
   "name": "{{name}}",
+  "id": "{{name}}",
   "title": "{{title}}",
   "description": "{{description}}",
   "version": "{{version}}",
