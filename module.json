@@ -1,25 +1,31 @@
 {
-  "name": "{{name}}",
-  "id": "{{name}}",
-  "title": "{{title}}",
-  "description": "{{description}}",
-  "version": "{{version}}",
+  "id": "lava-flow",
+  "title": "Lava Flow",
+  "description": "Adds a Lava button to the chat UI.",
+  "version": "0.1.0",
+
+  "compatibility": { "minimum": "12", "verified": "12" },
+
   "authors": [
-    {
-      "name": "Chase Burke"
-    }
+    { "name": "Kollin Drake", "url": "https://github.com/kollindrake" }
   ],
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  },
-  "esmodules": "{{sources}}",
-  "styles": "{{css}}",
-  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
-  "url": "https://github.com/Praxxian/lava-flow",
-  "license": "https://github.com/Praxxian/lava-flow/LICENSE",
-  "manifest": "https://github.com/Praxxian/lava-flow/releases/download/{{version}}/module.json",
-  "download": "https://github.com/Praxxian/lava-flow/releases/download/{{version}}/lava-flow.zip",
-  "readme": "https://github.com/Praxxian/lava-flow/README.md",
-  "changelog": "https://github.com/Praxxian/lava-flow/CHANGELOG.md"
+  "url": "https://github.com/kollindrake/lava-flow",
+  "bugs": "https://github.com/kollindrake/lava-flow/issues",
+  "readme": "https://raw.githubusercontent.com/kollindrake/lava-flow/main/README.md",
+  "changelog": "https://raw.githubusercontent.com/kollindrake/lava-flow/main/CHANGELOG.md",
+  "license": "https://raw.githubusercontent.com/kollindrake/lava-flow/main/LICENSE",
+
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ],
+
+  "scripts": [
+    { "src": "src/index.js", "module": true }
+  ],
+  "styles": [
+    { "src": "styles/lava-flow.css" }
+  ],
+
+  "manifest": "https://raw.githubusercontent.com/kollindrake/lava-flow/main/module.json",
+  "download": "https://github.com/kollindrake/lava-flow/archive/refs/heads/main.zip"
 }
